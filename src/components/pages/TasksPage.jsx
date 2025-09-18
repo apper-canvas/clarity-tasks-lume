@@ -8,7 +8,7 @@ import CategoryForm from "@/components/organisms/CategoryForm"
 import Modal from "@/components/molecules/Modal"
 import ConfirmDialog from "@/components/molecules/ConfirmDialog"
 import { taskService } from "@/services/api/taskService"
-//import { categoryService } from "@/services/api/categoryService"
+import { categoryService } from "@/services/api/categoryService"
 
 const TasksPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("all")
